@@ -1,0 +1,134 @@
+.fl_l{float:left;}
+.fl_r{float:right;}
+.clear{clear:both;}
+
+#minichatajax{
+    position:relative;
+    font:11px Tahoma, sans-serif;
+}
+.mcHead,
+.mcBottom{
+    position:relative;
+    min-height:48px;
+    border:1px solid #cecece;
+    border-radius:5px;
+    background:#dedede;
+    z-index:20;
+    font:11px Tahoma, sans-serif;
+}
+.mcHead{
+    line-height:48px;
+    text-align:center;
+    margin:10px 10px 0;
+}
+.mcBottom{
+    padding:3px;
+    margin:0 10px 10px;
+}
+.mcBody{
+    position:relative;
+    margin:-5px 10px;
+    padding:5px 0;
+    border:solid #cecece;
+    border-width:0 1px;
+    background:#ebebeb;
+}
+.mcBodyScroll{
+    margin:-1px 0;
+    position:relative;
+    max-height:400px;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+.mcPostodd{
+    background:#ebebeb;
+    padding:5px;
+    border-bottom:1px solid #cecece;
+}
+.mcPosteven{
+    background:#e5e5e5;
+    padding:5px;
+    border-bottom:1px solid #cecece;
+}
+.mcInfo{
+    font-size:11px;
+}
+#mcForm{
+    margin:5px 0;
+}
+.mcText{
+    width:90%;
+}
+.mcTextPanel{
+    width:80%;
+}
+.mcText > div{
+    min-height:50px;
+    background:#ebebeb;
+    border-radius:5px 0 0 5px;
+    border:1px solid #cecece;
+    padding:3px;
+}
+.mcSubmin{
+    width:10%;
+}
+.mcSubminPanel{
+    width:20%;
+}
+.mcSubmin > div{
+    height:56px;
+    background:#ebebeb;
+    border-radius:0 5px 5px 0;
+    border:1px solid #cecece;
+    border-left:0;
+    cursor:pointer;
+}
+.mcText textarea,
+.mcSubmin input{
+    margin:0;
+    padding:0;
+    border:0;
+    width:100%;
+    height:100%;
+    background:transparent;
+    font:11px Tahoma, sans-serif;
+}
+.mcText textarea{
+    resize:vertical;
+    min-height:50px;
+}
+.mcSubmin input{
+    cursor:pointer;
+    font-weight:bold;
+}
+.mcSubmin input:hover{
+    background:#e5e5e5;
+}
+.mcPag{
+    padding:10px 5px;
+    text-align:center;
+}
+.mcPagOdd{
+    background:#e5e5e5;
+    border-bottom:1px solid #cecece;
+}
+.mcPagEven{
+    background:#ebebeb;
+}
+.mcPag > span{
+    display:inline-block;
+    padding:0;
+    background:#bbb;
+    border:0;
+}
+.mcPag > span > a{
+    display:block;
+    padding:2px 5px;
+}
+.mcPag > span.pagenav_prev a,
+.mcPag > span.pagenav_next a,
+.mcPag > span.pagenav_first a,
+.mcPag > span.pagenav_last a,
+.mcPag > span.pagenav_pages a{
+    color:#fff;
+}
