@@ -18,6 +18,7 @@ $L['cfg_minichat_recenttimer'] = array('Интервал обновления м
 $L['cfg_minichat_timer'] = array('Интервал обновления страницы чата, сек.', '0 для отключения');
 $L['cfg_minichat_sort'] = array('Направление сортировки');
 $L['cfg_minichat_user_settings'] = array('Включить пользовательские настройки');
+$L['cfg_minichat_css'] = 'Использовать CSS стили плагина';
 
 $L['cfg_minichat_sort_params'] = array($L['Ascending'], $L['Descending']);
 

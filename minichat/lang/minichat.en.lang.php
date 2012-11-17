@@ -18,6 +18,7 @@ $L['cfg_minichat_recenttimer'] = array('Refresh minichat panel, sec.', '0 to dis
 $L['cfg_minichat_timer'] = array('Refresh minichat page, sec.', '0 to disable');
 $L['cfg_minichat_sort'] = array('Sorting direction');
 $L['cfg_minichat_user_settings'] = array('Enable user settings');
+$L['cfg_minichat_css'] = 'Use plugin CSS';
 
 $L['cfg_way_params'] = array($L['Ascending'], $L['Descending']);
 

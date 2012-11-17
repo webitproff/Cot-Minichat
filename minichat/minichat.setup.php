@@ -24,6 +24,7 @@ minichat_minchars=04:string::2:Min. Chars for shouts
 minichat_markup=05:radio:0,1:1:Allow BBCodes & Smiles in Shoutminichat
 minichat_recenttimer=06:select:0,15,20,30,50:0:Autoreload minichat panel
 minichat_timer=07:select:0,5,10,15,20,30,50:0:Autoreload, in ... seconds
+minichat_css=10:radio:0,1:1:Enable plugin CSS
 [END_COT_EXT_CONFIG]
 
 [BEGIN_COT_EXT_CONFIG_STRUCTURE]

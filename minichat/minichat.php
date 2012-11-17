@@ -31,7 +31,8 @@ global $db_chat, $db_x, $lang;
 $db_chat = (isset($db_chat)) ? $db_chat : $db_x . 'chat';
 
 $template = (cot_import('panel', 'G', 'BOL') || $env['ext'] != 'minichat') ? '.index' : '';
-cot_rc_link_footer($cfg['plugins_dir'] . '/minichat/lib/mch_style.css');
+
+$cfg['plugin']['minichat']['minichat_css'] ? cot_rc_link_footer($cfg['plugins_dir'] . '/minichat/lib/mch_style.css') : '';
 cot_rc_link_footer("./images/smilies/lang/$lang.lang.js");
 cot_rc_link_footer('images/smilies/set.js');
 
@@ -57,7 +58,7 @@ function minichat_build($template, $ajax = false)
 	$minichatt = new XTemplate($mskin);
 
 
-    $shoutbox = trim(cot_import('shoutbox', 'P', 'HTM'));
+    $shoutbox = $_POST['shoutbox'];
     $edit = cot_import('edit', 'G', 'INT');
     $a = cot_import('a', 'G', 'ALP');
     $del = cot_import('del', 'G', 'INT');
