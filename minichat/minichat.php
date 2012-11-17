@@ -58,7 +58,7 @@ function minichat_build($template, $ajax = false)
 	$minichatt = new XTemplate($mskin);
 
 
-    $shoutbox = $_POST['shoutbox'];
+    $shoutbox = trim(cot_import('shoutbox', 'P', 'HTM'));
     $edit = cot_import('edit', 'G', 'INT');
     $a = cot_import('a', 'G', 'ALP');
     $del = cot_import('del', 'G', 'INT');
