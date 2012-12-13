@@ -134,7 +134,7 @@ function minichat_build($template, $ajax = false)
 		$perpage = $cfg['plugin']['minichat']['minichat_maxperpage'];
 		$panelchat = '';
 	}
-	$d_var = 'd';
+	$d_var = 'd_mch';
 	list($pg, $d, $durl) = cot_import_pagenav($d_var, $perpage);
 
 	if (!empty($error_string))
